@@ -21,3 +21,13 @@ for(let i=0;i<seatingChart.length;i++){
         console.log(`Seating Chart is ${seatingChart[i][j]}`);
     }
 }
+
+//While Loop
+const SECRET = `GREAT`
+let someString = prompt(`Guess the SECRET`)
+while(someString != SECRET){
+    someString = prompt(`Guess the SECRET`)
+}
+console.log(`You GUESSED IT!!!`);
+
+
